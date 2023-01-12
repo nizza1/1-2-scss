@@ -1,0 +1,24 @@
+@media screen and (min-width: 600px) {
+	.section_images {
+    	display: flex;
+    	flex-flow: row wrap;
+	}
+
+	.section_text {
+    	width: 70%;
+	}
+
+	.aside {
+    	display: flex;
+    	flex-flow: row wrap;
+	}
+
+	.first_aside, .second_aside, .third_aside, .fourth_aside {
+    	width: 45%;
+    	margin: 0.5rem;
+        h3 {
+            font-family: $titleFont;
+        }
+	}
+}
+
